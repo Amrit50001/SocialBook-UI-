@@ -1,0 +1,45 @@
+
+*{
+    background-image: linear-gradient(to right, rgb(233, 8, 147), rgb(230, 124, 173));
+}
+  h1{
+    color:darkcyan;
+    text-align: center;
+  
+  }
+  button{
+      width:30%;
+      height:50px;
+      padding: 10px;
+      border: none;
+      background-color: aliceblue;
+      color: darkcyan;
+      border-radius: 5px;
+      font-weight: bold;
+      font-size: 18px;  
+      cursor: pointer;
+      margin-top: 15px;
+      margin-bottom: 30px;
+        
+  
+  }
+  input{
+    display: flex;
+    text-align: center;
+    padding: 15px ;
+    margin: 10px 0px;
+    border-radius: 50pxpx;
+    border: 1px solid rgb(12, 12, 12);
+    background: rgb(180, 208, 232);
+    font-weight: 700;
+    
+    
+    
+    
+
+}
+label{
+    font-size: 12px;
+    color: gray;
+}
+

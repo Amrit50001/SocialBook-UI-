@@ -1,0 +1,460 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width , initial-scale=1.0">
+    <title>SocialBook</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/ba326f83f7.js" crossorigin="anonymous"></script> 
+</head>
+<biody>
+
+    <nav>
+        <div class="nav-left">
+            <img src="images/logo.png" class="logo">
+            <ul>
+                <li><img src="images/notification.png"></li>
+                <li><img src="images/inbox.png" ></li>
+                <li><img src="images/video.png"></li>
+            </ul>
+        </div>
+
+        <div class="nav-right">
+            <div class="search-box">
+                <img src="images/search.png">
+                <input type="text" placeholder="search">
+                
+                
+            </div>
+           
+            <div class="nav-user-icon online" onclick="settingsMenuToggel()">
+                <img src="images/profile-pic.jpg">
+            </div>
+
+        </div>
+        <!-- -----------------settings menu------------------- -->
+            <div class="settings-menu">
+
+                <div id="dark-btn" >
+                    <span></span>
+                </div>
+                <div class="settings-menu-inner">
+                    <div class="user-profile">
+                        <img src="images/profile-pic.jpg">
+                            <div>
+                                <p>Amrit Jung Thapa</p>
+                                <a href="#">See Your Profile</a>
+                            </div>
+    
+                    </div>
+                </div>
+                    <hr>
+                <div class="user-profile">
+                    <img src="images/feedback.png">
+                        <div>
+                            <p>Give feedback</p>
+                            <a href="#">Help us to improve the design</a>
+                        </div>
+
+                </div>
+                <hr>
+
+                <div class="setting-links">
+                    <img src="images/setting.png" class="settings-icons">
+                    <a href="#">Settings & Privacy <img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/help.png" class="settings-icons">
+                    <a href="#">Help & Support<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/display.png" class="settings-icons">
+                    <a href="#">Display & Accessibility<img src="images/arrow.png" width="10px"></a>
+                </div>
+                <div class="setting-links">
+                    <img src="images/logout.png" class="settings-icons">
+                    <a href="logout.html">Logout<img src="images/arrow.png" width="10px"></a>
+                </div>
+            </div>
+ 
+            </div>
+        </div>
+    </nav>
+    <div class="container">
+       <!-- ----------------left-sidebar---------------- -->
+            <div class="left-sidebar">
+                <div class="imp-links">
+                    <a href="#"><img src="images/news.png">Latest News</a>
+                    <a href="#"><img src="images/friends.png">Friends</a>
+                    <a href="#"><img src="images/group.png">Group</a>
+                    <a href="#"><img src="images/marketplace.png">Marketplace</a>
+                    <a href="#"><img src="images/watch.png">Watch</a>
+                    <a href="#">See More</a>
+                </div>
+                <div class="shortcut-links">
+                    <p>Your Shortcuts</p>
+                    <a href="#"><img src="images/shortcut-1.png">Web Developers</a>
+                    <a href="#"><img src="images/shortcut-2.png">Web Design Course</a>
+                    <a href="#"><img src="images/shortcut-3.png">Full Stack Development</a>
+                    <a href="#"><img src="images/shortcut-4.png">Web Experts</a>
+                </div>
+
+            </div>
+            <!-- ----------------main content---------------- -->
+            <div class="main-content">
+
+                <div class="story-gallery">
+                    <div class="story story1">
+                        <img src="images/upload.png">
+                        <p>Post Story</p>
+                    </div>
+                    <div class="story story2">
+                        <img src="images/member-1.jpg">
+                        <p>Amrit Jung Thapa</p>
+                    </div>
+                    <div class="story story3">
+                        <img src="images/member-2.jpg">
+                        <p>Bigyan Bhandari</p>
+                    </div>
+                    <div class="story story4">
+                        <img src="images/binod.jpg">
+                        <p>Binod Bhandari</p>
+                    </div>
+                    <div class="story story5">
+                        <img src="images/member-4.jpg">
+                        <p>Abishekh Khadka</p>
+                    </div>
+                </div>
+
+                    <div class="wight-post-container">
+                        <div class="user-profile">
+                            <img src="images/profile-pic.jpg">
+                            <div>
+                                <p>Amrit Jung Thapa</p>
+                                <small>Public <i class="fa-solid fa-caret-down"></i></small>
+                            </div>
+
+                        </div>
+
+                        <div class="post-input-container">
+                            <textarea  rows="3" placeholder="Whats on your mind,  Amrit?"></textarea>
+
+                            <div class="add-post-links">
+                                <a href="#" > <img src="images/live-video.png" > Live Video</a>
+                                <a href="#" > <img src="images/photo.png" > Photo/Video</a>
+                                <a href="#" > <img src="images/feeling.png" > Feling/Activity</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    
+                
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profile-pic.jpg">
+                                    <div>
+                                        <p>Amrit Jung Thapa</p>
+                                        <span> July 11 2022, 09:40 pm</span>
+                                    </div>
+
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v" ></i></a>
+                        </div>
+                        <p class="post-text">
+                            Follow <span>@Aamreet Jung Thapa </span>for getting more information about Web Development
+                            <a href="#">#Aamreet Jung Thapa</a> <a href="#">#Facebook Account</a>
+                        </p>
+                        <img src="images/feed-image-1.jpg" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div> <img src="images/like-blue.png" >120</div>
+                                <div> <img src="images/comments.png" >12</div>
+                                <div> <img src="images/share.png" >20</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/profile-pic.jpg" ><i class="fa-solid fa-caret-down"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profile-pic.jpg">
+                                    <div>
+                                        <p>Amrit Jung Thapa</p>
+                                        <span> July 10 2022, 08:40 pm</span>
+                                    </div>
+
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v" ></i></a>
+                        </div>
+                        <p class="post-text">
+                            Enjoying with friend<span>@Aamreet Jung Thapa </span>
+                             <!-- <a href="#">#Aamreet Jung Thapa</a> -->
+                                 <a href="#">#Facebook Account</a> 
+                        </p>
+                        <img src="images/feed-image-2.jpg" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div> <img src="images/like.png" >120</div>
+                                <div> <img src="images/comments.png" >22</div>
+                                <div> <img src="images/share.png" >2</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/profile-pic.jpg" ><i class="fa-solid fa-caret-down"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profile-pic.jpg">
+                                    <div>
+                                        <p>Amrit Jung Thapa</p>
+                                        <span> July 10 2022, 08:40 pm</span>
+                                    </div>
+
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v" ></i></a>
+                        </div>
+                        <p class="post-text">
+                            Good times with<span>@Aamreet Jung Thapa @Abishekh khadka @Bigyan Bhandari @Nirjal Dahal</span>
+                            
+                            <!-- <a href="#">#Aamreet Jung Thapa</a> <a href="#">#Facebook Account</a> -->
+                        </p>
+                        <img src="images/feed-image-3.jpg" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div> <img src="images/like.png" >1220</div>
+                                <div> <img src="images/comments.png" >222</div>
+                                <div> <img src="images/share.png" >3</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/profile-pic.jpg" ><i class="fa-solid fa-caret-down"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/profile-pic.jpg">
+                                    <div>
+                                        <p>Amrit Jung Thapa</p>
+                                        <span> July 1 2022, 10:40 am</span>
+                                    </div>
+
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v" ></i></a>
+                        </div>
+                        <p class="post-text">
+                            Celeberating Birthday with<span> @Bigyan Bhandari</span>
+                            
+                            <!-- <a href="#">Bigyan Bhandari</a> <a href="#">#Facebook Account</a> -->
+                        </p>
+                        <img src="images/frrd-image-4.jpg" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div> <img src="images/like.png" >122</div>
+                                   <div> <img src="images/comments.png" >20</div>
+                                <div> <img src="images/share.png" >3</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/profile-pic.jpg" ><i class="fa-solid fa-caret-down"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/binod.jpg">
+                                    <div>
+                                        <p>Binod Bhandari</p>
+                                        <span> July 1 2022, 06:40 pm</span>
+                                    </div>
+
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v" ></i></a>
+                        </div>
+                        <p class="post-text">
+                            I have Cringe personality<span>@Binod Bhandari </span>
+                            <!-- <a href="#">#Aamreet Thapa</a> <a href="#">#Facebook Account</a> -->
+                        </p>
+                        <img src="images/status-3.jpg" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div> <img src="images/like-blue.png" >120</div>
+                                <div> <img src="images/comments.png" >12</div>
+                                <div> <img src="images/share.png" >20</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/profile-pic.jpg" ><i class="fa-solid fa-caret-down"></i>
+
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/member-2.jpg">
+                                    <div>
+                                        <p>Bigyan Bhandari</p>
+                                        <span> June 20 2022, 09:40 pm</span>
+                                    </div>
+
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v" ></i></a>
+                        </div>
+                        <p class="post-text">
+                            I am haddi man....
+                            <!-- <a href="#">#Aamreet Thapa</a> <a href="#">#Facebook Account</a> -->
+                        </p>
+                        <img src="images/status-2.jpg" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div> <img src="images/like-blue.png" >120</div>
+                                <div> <img src="images/comments.png" >12</div>
+                                <div> <img src="images/share.png" >20</div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/profile-pic.jpg" ><i class="fa-solid fa-caret-down"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="post-container">
+                        <div class="post-row">
+                            <div class="user-profile">
+                                <img src="images/member-4.jpg">
+                                    <div>
+                                        <p>Abishekh Khadka</p>
+                                        <span> July 3 2022, 04:40 pm</span>
+                                    </div>
+
+                            </div>
+                            <a href="#"><i class="fas fa-ellipsis-v" ></i></a>
+                        </div>
+                        <p class="post-text">
+                            Good vibes....
+                            <!-- <a href="#">#Aamreet Thapa</a> <a href="#">#Facebook Account</a> -->
+                        </p>
+                        <img src="images/status-4.jpg" class="post-img">
+
+                        <div class="post-row">
+                            <div class="activity-icons">
+                                <div> <img src="images/like-blue.png" >1120</div>
+                                <div> <img src="images/comments.png" >2</div>
+                                <div> <img src="images/share.png" ></div>
+                            </div>
+                            <div class="post-profile-icon">
+                                <img src="images/profile-pic.jpg" ><i class="fa-solid fa-caret-down"></i>
+
+                            </div>
+                        </div>
+                    </div>
+                        
+                        <button type="button" class="load-more-button"> Load More</button>
+                        
+
+
+
+            </div>
+            <!-- ----------------right sidebar---------------- -->
+            <div class="right-sidebar">
+
+                <div class="sidebar-title">
+                    <h4>Events</h4>
+                    <a href="#">See All</a>
+                </div>
+
+                <div class="event">
+                    <div class="left-event">
+                        <h3>18</h3>
+                        <span>March</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Social Media</h4>
+                        <p> <i class="fa-solid fa-location-dot"></i>Garden Of Dreams</p>
+                        <a href="#">More Info</a>
+                    </div>
+                </div>
+                <div class="event">
+                    <div class="left-event">
+                        <h3>22</h3>
+                        <span>June</span>
+                    </div>
+                    <div class="right-event">
+                        <h4>Mobile Marketing</h4>
+                        <p> <i class="fa-solid fa-location-dot"></i>Boudha Stupa</p>
+                        <a href="#">More Info</a>
+                    </div>
+                </div>
+                <div class="sidebar-title">
+                    <h4>Advertisement</h4>
+                    <a href="#">Close</a>
+                </div>
+               <img src="images/advertisement.png" class="ads">
+
+               <div class="sidebar-title">
+                <h4>Conversation</h4>
+                <a href="#">Hide Chat</a>
+            </div>
+
+
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-1.jpg" >
+                </div>
+                <p>Amrit Jung Thapa</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-2.jpg" >
+                </div>
+                <p>Bigyan Bhandari</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-4.jpg" >
+                </div>
+                <p>Abishekh Khadka</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/member-3.jpg" >
+                </div>
+                <p>Binod Bhandari</p>
+            </div>
+            <div class="online-list">
+                <div class="online">
+                    <img src="images/nirjal.jpg" >
+                </div>
+                <p>Nirjal Dahal</p>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="footer">
+        <p> Copyright 2021 By @Amrit Jung Thapa</p> 
+    </div>
+    
+
+    <script src="script.js"></script>
+</biody>
+</html>
